@@ -15,7 +15,6 @@
 <body>
 
 <?php
-// Масив кольорів HTML та їх назв
 $html_colors = array(
     "#FF0000" => "Червоний",
     "#00FF00" => "Зелений",
@@ -39,7 +38,6 @@ $html_colors = array(
     </thead>
     <tbody>
         <?php
-        // Виведення кольорів та їх назв в таблицю
         foreach ($html_colors as $color => $name) {
             echo "<tr>";
             echo "<td style='background-color: $color'></td>";
